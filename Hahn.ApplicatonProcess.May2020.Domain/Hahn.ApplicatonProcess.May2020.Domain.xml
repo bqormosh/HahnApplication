@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicatonProcess.May2020.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.Name">
+            <summary>
+            The name of the Applicant (at least 5 characters)
+            </summary>
+            <example>Bassam</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.FamilyName">
+            <summary>
+            The Family Name of the Applicant (at least 5 characters)
+            </summary>
+            <example>Qormosh</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.Address">
+            <summary>
+            The home address of the applicant (at least 10 characters)
+            </summary>
+            <example>Gaza, Palestine</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.CountryOfOrigin">
+            <summary>
+            a valid country name
+            </summary>
+            <example>USA</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.EmailAdress">
+            <summary>
+            a valid email address
+            </summary>
+            <example>john.smith@gmail.com</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.Age">
+            <summary>
+            applicant age between 20 to 60
+            </summary>
+            <example>26</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.Models.Applicant.Hired">
+            <summary>
+            value indicate if the applicant is hired or not
+            </summary>
+            <example>true</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.Name">
+            <summary>
+            The name of the Applicant (at least 5 characters)
+            </summary>
+            <example>Bassam</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.FamilyName">
+            <summary>
+            The Family Name of the Applicant (at least 5 characters)
+            </summary>
+            <example>Qormosh</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.Address">
+            <summary>
+            The home address of the applicant (at least 10 characters)
+            </summary>
+            <example>Gaza, Palestine</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.CountryOfOrigin">
+            <summary>
+            a valid country name
+            </summary>
+            <example>USA</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.EmailAdress">
+            <summary>
+            a valid email address
+            </summary>
+            <example>john.smith@gmail.com</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.Age">
+            <summary>
+            applicant age between 20 to 60
+            </summary>
+            <example>29</example>
+        </member>
+        <member name="P:Hahn.ApplicatonProcess.May2020.Domain.ViewModels.ApplicantViewModel.Hired">
+            <summary>
+            value indicate if the applicant is hired or not
+            </summary>
+            <example>true</example>
+        </member>
+    </members>
+</doc>

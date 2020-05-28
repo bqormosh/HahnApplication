@@ -63,7 +63,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
 
         // POST: api/Applicant
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Post([FromBody] ApplicantViewModel inputApplicant)
         {
@@ -77,7 +77,8 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
                 if (addedApplicant != null)
                 {
                     logger.Information($"Added new Apllicant with Id:{applicant.ID}");
-                    return Ok(addedApplicant);
+                    return CreatedAtAction("Get", new { id = applicant.ID }, applicant);
+                    
                 }
                 else
                 {
